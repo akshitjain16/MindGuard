@@ -1,0 +1,51 @@
+/* src/pages/Home.css */
+.home-container {
+    display: flex; /* Flex layout for sidebar and main content */
+    height: 100vh; /* Full viewport height */
+}
+
+.home-content {
+    flex-grow: 1; /* Take the remaining space */
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background similar to Discord */
+    display: flex;
+    flex-direction: column; /* Column layout for content */
+    overflow-y: auto;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #2c2f33; /* Dark gray title color */
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #7289da; /* Discord blue */
+    margin-top: 0.5rem;
+}
+
+.intro {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    color: #40444b; /* Slightly lighter gray */
+}
+
+.features {
+    display: flex;
+    gap: 20px; /* Space between components */
+    flex-wrap: wrap; /* Wrap features on smaller screens */
+}
+
+/* Ensure components like SentimentAnalysis and MentalHealthAssessment have styles */
+.MentalHealthAssessment, .SentimentAnalysis {
+    background-color: #ffffff; /* White background for components */
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Light shadow for elevation */
+    padding: 20px;
+    flex: 1; /* Allow features to grow */
+    min-width: 300px; /* Minimum width for components */
+}

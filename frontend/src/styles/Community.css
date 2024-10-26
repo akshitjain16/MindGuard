@@ -1,0 +1,71 @@
+/* src/styles/Community.css */
+.community-container {
+    display: flex; /* Flex layout for navbar and main content */
+    height: 100vh; /* Full viewport height */
+    background-color: #2f3136; /* Dark background like Discord */
+    color: white; /* Text color */
+}
+
+.main-content {
+    flex-grow: 1; /* Take remaining space */
+    padding: 20px;
+    overflow-y: auto; /* Allow scrolling for overflow */
+}
+
+.posts-header {
+    border-bottom: 1px solid #40444b; /* Light border for header */
+    margin-bottom: 20px;
+}
+
+.new-post-form {
+    display: flex;
+    flex-direction: column; /* Stack input elements */
+    margin-bottom: 20px;
+}
+
+.username-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #40444b;
+    margin-bottom: 10px;
+    background-color: #36393f; /* Dark input background */
+    color: white; /* Text color */
+}
+
+.post-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #40444b;
+    margin-bottom: 10px;
+    background-color: #36393f; /* Dark input background */
+    color: white; /* Text color */
+}
+
+button {
+    background-color: #7289da; /* Discord button color */
+    color: white; /* Text color */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5b6eae; /* Darker shade on hover */
+}
+
+.posts-list {
+    margin-top: 20px;
+}
+
+.post-item {
+    background-color: #40444b; /* Background for individual posts */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.username {
+    font-weight: bold; /* Bold username */
+}

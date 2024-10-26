@@ -1,0 +1,96 @@
+/* src/styles/MentalHealthAssessment.css */
+
+.assessment-container {
+    display: flex;
+    background-color: #f0f0f0; /* Light background */
+
+}
+
+.assessment-content {
+    padding: 20px;
+    width: 93vw;
+}
+
+.assessment-title {
+    font-size: 24px;
+    color: #000000; /* Light color for the title */
+    margin-bottom: 20px;
+}
+
+.assessment-form {
+    background-color: #2c2f33; /* Dark background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    color: #ffffff; /* Light color for labels */
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #4b545c; /* Slightly lighter border */
+    background-color: #23272a; /* Dark input */
+    color: #ffffff; /* Light text color */
+}
+
+.form-input::placeholder {
+    color: #99aab5; /* Placeholder text color */
+}
+
+.questions-header {
+    color: #ffffff; /* Light color for the questions header */
+    margin: 20px 0;
+}
+
+.questions-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px; /* Space between questions */
+}
+
+.question-item {
+    background-color: #2f343b; /* Dark background for questions */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.question-label {
+    color: #ffffff; /* Light color for question labels */
+}
+
+.question-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #4b545c; /* Slightly lighter border */
+    background-color: #23272a; /* Dark select */
+    color: #ffffff; /* Light text color */
+}
+
+.question-select option {
+    color: #23272a; /* Dark text color for options */
+}
+
+.submit-button {
+    background-color: #7289da; /* Discord brand color */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+    background-color: #5b6eae; /* Darker shade on hover */
+}

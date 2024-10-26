@@ -1,0 +1,39 @@
+.chat-container {
+    background-color: #2f3136; /* Dark background */
+    color: white; /* White text */
+    padding: 20px;
+    height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column; /* Stack elements */
+}
+
+.messages {
+    flex-grow: 1; /* Take remaining space */
+    overflow-y: auto; /* Scroll for overflow */
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #40444b;
+    margin-right: 10px;
+    background-color: #36393f; /* Input background */
+    color: white; /* Input text color */
+}
+
+button {
+    background-color: #7289da; /* Button color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5b6eae; /* Button hover color */
+}
+
+.users {
+    margin-top: 20px; /* Space above users list */
+}
